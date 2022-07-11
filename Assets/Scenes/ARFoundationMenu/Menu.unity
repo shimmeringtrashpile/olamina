@@ -6099,6 +6099,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SimpleAR: {fileID: 1790425529}
+  m_TestBasicImageTracking: {fileID: 370685136}
+  m_TestMultipleImageTracking: {fileID: 1866933704}
   m_ImageTracking: {fileID: 1311724826}
   m_Anchors: {fileID: 1905833466}
   m_ARWorldMap: {fileID: 1817576787}

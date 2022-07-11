@@ -22,6 +22,22 @@ namespace UnityEngine.XR.ARFoundation.Samples
         }
 
         [SerializeField]
+        Button m_TestBasicImageTracking;
+        public Button testBasicImageTracking
+        {
+            get => m_TestBasicImageTracking;
+            set => m_TestBasicImageTracking = value;
+        }
+
+        [SerializeField]
+        Button m_TestMultipleImageTracking;
+        public Button testMultipleImageTracking
+        {
+            get => m_TestMultipleImageTracking;
+            set => m_TestMultipleImageTracking = value;
+        }
+
+        [SerializeField]
         Button m_ImageTracking;
         public Button imageTracking
         {
@@ -429,7 +445,17 @@ namespace UnityEngine.XR.ARFoundation.Samples
                 m_ImageTracking.interactable = true;
             }
 
-            if(envDescriptors.Count > 0)
+            if (imageDescriptors.Count > 0)
+            {
+                m_TestBasicImageTracking.interactable = true;
+            }
+
+            if (imageDescriptors.Count > 0)
+            {
+                m_TestMultipleImageTracking.interactable = true;
+            }
+
+            if (envDescriptors.Count > 0)
             {
                 m_EnvironmentProbes.interactable = true;
             }
