@@ -139,6 +139,16 @@ namespace UnityEngine.XR.ARFoundation.Samples
             LoadScene("SimpleAR");
         }
 
+        public void TestImageTrackableButtonPressed()
+        {
+            LoadScene("TestBasicImageTracking");
+        }
+
+        public void TestMultiImagesTrackingButtonPressed()
+        {
+            LoadScene("TestMultiImageTrackingWithMultiplePrefabs");
+        }
+
         public void ImageTrackableButtonPressed()
         {
             ActiveMenu.currentMenu = MenuType.ImageTracking;
