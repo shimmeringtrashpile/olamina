@@ -443,15 +443,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             if(imageDescriptors.Count > 0)
             {
                 m_ImageTracking.interactable = true;
-            }
-
-            if (imageDescriptors.Count > 0)
-            {
                 m_TestBasicImageTracking.interactable = true;
-            }
-
-            if (imageDescriptors.Count > 0)
-            {
                 m_TestMultipleImageTracking.interactable = true;
             }
 
