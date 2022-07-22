@@ -49,3 +49,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: QRCode
     m_Texture: {fileID: 2800000, guid: a6fd8503774c0402aa403884f5b77f39, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5059368427549318862
+      m_GuidHigh: 6810461991245849535
+    m_SerializedTextureGuid:
+      m_GuidLow: 14188446991860408229
+      m_GuidHigh: 1423891263617731768
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: badbrains
+    m_Texture: {fileID: 2800000, guid: 904c9fa57d5dc4e7b88cb7668fadc213, type: 3}
