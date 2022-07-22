@@ -3682,6 +3682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_ClickSpeed: 0.3
   m_MoveDeadzone: 0.6
   m_RepeatDelay: 0.5
@@ -14662,7 +14663,7 @@ MonoBehaviour:
       - m_Target: {fileID: 774532498}
         m_TargetAssemblyTypeName: UnityEngine.XR.ARFoundation.Samples.ARSceneSelectUI,
           Assembly-CSharp
-        m_MethodName: TestMultiImagesTrackingButtonPressed
+        m_MethodName: TestMultiImageTrackingButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15316,7 +15317,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1130901185}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.4878572
+  m_Size: 0.4878571
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

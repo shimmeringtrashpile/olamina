@@ -35,10 +35,8 @@ namespace UnityEngine.XR.ARFoundation.Samples
         }
 
         [SerializeField]
+        [HideInInspector]
         List<NamedPrefab> m_PrefabsList = new List<NamedPrefab>();
-
-        [SerializeField]
-        List<string> stringlist = new List<string>();
 
         Dictionary<Guid, GameObject> m_PrefabsDictionary = new Dictionary<Guid, GameObject>();
         Dictionary<Guid, GameObject> m_Instantiated = new Dictionary<Guid, GameObject>();

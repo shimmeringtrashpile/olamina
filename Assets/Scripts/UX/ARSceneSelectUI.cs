@@ -144,9 +144,9 @@ namespace UnityEngine.XR.ARFoundation.Samples
             LoadScene("TestBasicImageTracking");
         }
 
-        public void TestMultiImagesTrackingButtonPressed()
+        public void TestMultiImageTrackingButtonPressed()
         {
-            LoadScene("TestMultiImageTrackingWithMultiplePrefabs");
+            LoadScene("TestImageTrackingWithMultiplePrefabs");
         }
 
         public void ImageTrackableButtonPressed()
